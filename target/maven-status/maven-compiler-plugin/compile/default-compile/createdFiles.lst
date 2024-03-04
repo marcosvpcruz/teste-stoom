@@ -9,12 +9,15 @@ br\com\stoom\store\controller\CategoryController.class
 br\com\stoom\store\model\Product.class
 br\com\stoom\store\repository\ProductRepository.class
 br\com\stoom\store\business\interfaces\ICategoryBO.class
+br\com\stoom\store\model\Product$ProductBuilder.class
 br\com\stoom\store\model\Brand.class
 br\com\stoom\store\repository\CategoryRepository.class
 br\com\stoom\store\business\ProductBO.class
 br\com\stoom\store\controller\BrandController.class
+br\com\stoom\store\model\Brand$BrandBuilder.class
 br\com\stoom\store\controller\ProductController.class
 br\com\stoom\store\repository\ProductRepository$ProductCategoryDto.class
 br\com\stoom\store\StoreApplication.class
+br\com\stoom\store\model\Category$CategoryBuilder.class
 br\com\stoom\store\dto\ProductDto.class
 br\com\stoom\store\business\interfaces\IProductBO.class
