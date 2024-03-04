@@ -48,6 +48,7 @@ public class ProductBO implements IProductBO {
 		product.setName(productDto.getName());
 		product.setDataInclusion(LocalDateTime.now());
 		product.setSku(productDto.getSku());
+		product.setPrice(productDto.getPrice());
 		
 		try {
 			Optional<Brand> brand = brandRepository.findById(productDto.getBrandId());
